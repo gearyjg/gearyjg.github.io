@@ -1,0 +1,11 @@
+To Do:
+------
+
+BUILD BETA:
+-----------
+Change purchase page to change based on issue selected
+Change navbar to show appropraite labels when logged in (session)
+Purchase page filled out, button redirects to login if necessary
+Write script to process logins
+Write script to update passwords
+Write script to update profiles -> tie to session

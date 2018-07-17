@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<title>Contact Us</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./../css/main.css">
+<link rel="stylesheet" href="./../css/font_Oswald.css">
+<link rel="stylesheet" href="./../css/font_Open_Sans.css">
+<link rel="stylesheet" href="./../css/main_css.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+<body class="light-grey">
+  
+<!-- General page class -->
+<div class="content" style="max-width:1600px">
+
+<!-- Navigation bar -->
+<div class="topnav">
+  <a href="./index.html">Home</a>
+  <a href="./about.html">About Us</a>
+  <a class="active" href="#">Contact Us</a>
+  <a href="./store.html">Shop</a>
+  <a href="./login.html">Login</a>
+</div>
+
+<style>
+.topnav {
+  background-color: #666666; /* Grey */
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+.topnav a:hover{
+  background-color: #666666;
+  color:#ff1cca; /* Purple */
+}
+.topnav a.active{
+  background-color: #666666;
+  color: #ff1cca;
+}
+</style>
+
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-48 w3-white">
+  <h1 class="w3-xxxlarge"><b>Children of Time</b></h1>
+  <h6>Welcome to <span class="w3-tag">Children of Time</span></h6>
+</header>
+
+<!-- BEGIN CONTENT -->
+<div class="container w3-center">
+  <style>
+  div {
+    width: 80%;
+    margin: auto;
+  }
+  </style>
+
+  <form action="contact.php" id="contactForm" method="post"> <!-- TODO: write this script -->
+    
+    <div class="container">
+      <label for="fname"<b>First Name</b></label>
+      <input type="text" name="fname" required>
+
+      <label for="lname"<b>Last Name</b></label>
+      <input type="text" name="lname" required>
+
+      <label for="email"<b>E-mail Address <font color="grey"> (Optional)</font></b></label>
+      <input type="text" name="email" ><br>
+
+      <label for="msg"<b>Message</b><br></label>
+      <textarea name="msg" form="contactForm" rows="10" cols="82" required></textarea><br>
+      <button type="submit" align="center">Send Message</button>
+    </div>
+  </form>
+</div>
+
+<style>
+.container input{
+  width: 100%;
+  clear: both;
+  margin: 2px 0 0 2px;
+}
+form {
+  border: 5px solid #f1f1f1;
+  text-align: left;
+}
+input[type=text] {
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+  padding: 5px;
+}
+input[type=textarea] {
+  width: 100%;
+  height: 300px;
+  text-align: top-left;
+}
+button {
+  width: 25% !important;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+}
+button:hover {
+  opacity: 0.8;
+}
+</style>
+<br>
+<!-- END CONTENT -->
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:0px;width:85%;margin:auto">
+<!-- Social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="https://www.facebook.com" class="w3-bar-item w3-button"><img src="./../res/facebook.jpg" alt="Facebook" width="40"
+    height="40" padding="0"></a>
+  <a href="https://www.instagram.com" class="w3-bar-item w3-button"><img src="./../res/instagram.jpg" alt="Instagram" width="40"
+    height="40" padding="0"></a>
+  <a href="https://www.twitter.com" class="w3-bar-item w3-button"><img src="./../res/twitter.jpg" alt="Twitter" width="40"
+    height="40" padding="0"></a>
+</div>
+</footer>
+
+</body>
+</html>

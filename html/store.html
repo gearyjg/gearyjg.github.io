@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<title>Shop</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./../css/main.css">
+<link rel="stylesheet" href="./../css/font_Oswald.css">
+<link rel="stylesheet" href="./../css/font_Open_Sans.css">
+<link rel="stylesheet" href="./../css/main_css.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+<body class="light-grey">
+  
+<!-- General page class -->
+<div class="content" style="max-width:1600px">
+
+<!-- Navigation bar -->
+<div class="topnav">
+  <a href="./index.html">Home</a>
+  <a href="./about.html">About Us</a>
+  <a href="./contact-us.html">Contact Us</a>
+  <a class="active" href="#">Shop</a>
+  <a href="./login.html">Login</a>
+</div>
+
+<style>
+.topnav {
+  background-color: #666666; /* Grey */
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+.topnav a:hover{
+  background-color: #666666;
+  color:#ff1cca; /* Purple */
+}
+.topnav a.active{
+  background-color: #666666;
+  color: #ff1cca;
+}
+</style>
+
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-48 w3-white">
+  <h1 class="w3-xxxlarge"><b>Children of Time</b></h1>
+  <h6>Welcome to <span class="w3-tag">Children of Time</span></h6>
+</header>
+
+<!-- BEGIN CONTENT -->
+<div class="container">
+  <div class="w3-display-container w3-dark-grey" width="100%">
+    <div class="w3-display-topleft" style="color: black; text-decoration: underline"><a href="./prev_issue.html">&lt&lt Previous Issue
+    </a></div>
+    <div class="w3-display-topright" style="color: black; text-decoration: underline"><a href="./next_issue.html">Next Issue &gt&gt
+    </a></div>
+  </div>
+
+  <br><br>
+
+  <style>
+    .column {
+      float: left;
+      padding: 10px;
+    }
+    .left {
+      width: 40%;
+    }
+    .right {
+      width: 60%;
+      background-color: #FFFFFF;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+
+<!-- Current Issue -->
+  <div class="row">
+    <div class="column left">
+      <img src="./../res/magazine_cover_sample.jpg" alt="Issue #1" width="100%" height="100%">
+    </div>
+    <div class="column right">
+      <h2>Issue #1</h2><br>
+      <p>Some sample text about the magaine goes here. This will be filled out more later. orem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis est massa, quis fermentum risus scelerisque eget. Quisque mollis dictum cursusorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis est massa, quis fermentum risus scelerisque eget. Quisque mollis dictum cursusorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis est massa, quis fermentum risus scelerisque eget. Quisque mollis dictum cursusorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis est massa, quis fermentum risus scelerisque eget.</p>
+      <div class="button"><a href="./../purchase.html">Purchase</a></div>
+        <style>
+        .button {
+          width: 25% !important;
+          background-color: #4caf50;
+          color: white;
+          border: none;
+          cursor: pointer;
+          text-align: center;
+          padding: 10px;
+          margin: 0 auto;
+        }
+        a:link {
+          color: white;
+          text-decoration: none;
+        }
+        a:visited {
+          color: white;
+          text-decoration: none;
+        }
+        a:hover {
+          color: white;
+          text-decoration: none;
+        }
+        a:active {
+          color:white;
+          text-decoration: none;
+        }
+        </style>
+    </div>
+    <style>
+      .left {
+        width: 33%;
+        text-align: center;
+      }
+      .center {
+        width: 33%;
+        text-align: center;
+      }
+      .right {
+        width: 33%;
+        text-align: center;
+      }
+    </style>
+  </div>
+  <div class="row"><br></div>
+  <div class="row"><br></div>
+  <div class="row"><br></div>
+  <!-- Older issues -->
+  <div class="row">
+    <div class="column left">
+      <a href="#">
+      <img src="./../res/mini_magazine.jpg" alt="Issue #1"><br>
+      <span>Issue #1</span>
+      </a>
+    </div>
+    <div class="column center">
+      <a href="#">
+      <img src="./../res/mini_magazine.jpg" alt="Issue #2"><br>
+      <span>Issue #2</span>
+      </a>
+    </div>
+    <div class="column right">
+      <a href="#">
+      <img src="./../res/mini_magazine.jpg" alt="Issue #3"><br>
+      <span>Issue #3</span>
+      </a>
+    </div>
+    <style>
+    a:link {
+      color: black;
+      text-decoration: none;
+    }
+    a:visited {
+      color: black;
+      text-decoration: none;
+    }
+    a:hover {
+      color : black;
+      text-decoration: underline;
+    }
+    a:active {
+      color: black;
+      text-decoration: none;
+    }
+    </style>
+  </div>
+</div>
+<!-- END CONTENT -->
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:0px">
+<!-- Social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="https://www.facebook.com" class="w3-bar-item w3-button"><img src="./../res/facebook.jpg" alt="Facebook" width="40"
+    height="40" padding="0"></a>
+  <a href="https://www.instagram.com" class="w3-bar-item w3-button"><img src="./../res/instagram.jpg" alt="Instagram" width="40"
+    height="40" padding="0"></a>
+  <a href="https://www.twitter.com" class="w3-bar-item w3-button"><img src="./../res/twitter.jpg" alt="Twitter" width="40"
+    height="40" padding="0"></a>
+</div>
+</footer>
+
+</body>
+</html>
