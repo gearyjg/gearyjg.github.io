@@ -1,11 +1,25 @@
 To Do:
 ------
 
-BUILD BETA:
+Alpha CRs:
+----------
+Send message also has option to send via Facebook -> both
+  -> messages will be sent to general address on yahoo.com (also post on page)
+FAQs section on About Us page (purchase, employment)
+  -> History of the magazine section neeeds to be added
+Home should be much like facebook (infintley scrollable)
+Link to blog on blogspot (link is shared in facebook messenger)
+
+BETA BUILD:
 -----------
 Change purchase page to change based on issue selected
 Change navbar to show appropraite labels when logged in (session)
-Purchase page filled out, button redirects to login if necessary
+Purchase page filled out, button redirects to login
+Profile needs to have a section for "my purchased issues"
 Write script to process logins
 Write script to update passwords
 Write script to update profiles -> tie to session
+
+MISC. NOTES:
+------------
+Tie purchase page to paypal api (capital one bank)
